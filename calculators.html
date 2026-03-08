@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free real estate investment calculators for Lucknow property buyers. Plot price calculator, EMI calculator, ROI calculator, stamp duty calculator. Plan your plot investment smartly.">
+  <meta name="keywords" content="plot price calculator Lucknow, EMI calculator real estate UP, ROI calculator property investment Lucknow, stamp duty calculator Uttar Pradesh, property investment calculator Lucknow 2024, Sultanpur Road plot value, Raebareli Road investment return">
+  <meta property="og:title" content="Investment Calculators | Amit Legacy Estates | Lucknow">
+  <meta property="og:description" content="Free real estate calculators — plot price, EMI, ROI, stamp duty. Plan your Lucknow property investment intelligently.">
+  <title>Investment Calculators | Amit Legacy Estates | Lucknow</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <link rel="apple-touch-icon" href="assets/images/favicon-180.png">
+  <link rel="icon" href="assets/images/favicon.png" type="image/png">
+  <style>
+    .calc-hub-grid { display: grid; grid-template-columns: 1fr; gap: 28px; }
+    @media (min-width: 900px) { .calc-hub-grid { grid-template-columns: 1fr 1fr; } }
+    .calc-hub-full { grid-column: 1 / -1; }
+    .calc-insight-box {
+      background: var(--cream);
+      border-radius: 6px;
+      padding: 20px;
+      border-left: 4px solid var(--gold);
+      margin-top: 16px;
+    }
+    .calc-insight-box h4 { font-size: .9rem; color: var(--navy); margin-bottom: 6px; }
+    .calc-insight-box p { font-size: .82rem; color: var(--text); line-height: 1.7; }
+    .market-insight-card {
+      background: var(--white);
+      border: 1px solid #e8e0d0;
+      border-radius: 8px;
+      padding: 24px;
+      transition: transform .3s, box-shadow .3s;
+    }
+    .market-insight-card:hover { transform: translateY(-4px); box-shadow: 0 16px 40px rgba(10,22,40,.08); }
+    .market-insight-card__icon { font-size: 2rem; margin-bottom: 12px; }
+    .market-insight-card h4 { font-size: 1rem; margin-bottom: 8px; }
+    .market-insight-card p { font-size: .85rem; line-height: 1.7; }
+  </style>
+</head>
+<body>
+
+<div class="urgency-ticker" role="marquee" aria-label="Current offers">
+  <div class="urgency-ticker__inner">
+    <div class="urgency-ticker__label">🔴 LIVE</div>
+    <div class="urgency-ticker__scroll">
+      <div class="urgency-ticker__track">
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>🔥 LIMITED PLOTS — Sarkar Town highway-facing units going fast</span>
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>⚡ APEX — ₹50/sqft instant booking discount. Limited period only</span>
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>✅ SARVODAYA CITY — Book from ₹14.39L. Approved plots ready</span>
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>🏦 BANK LOANS — SBI, HDFC, ICICI &amp; 5 more. Easy approval</span>
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>📞 CALL — +91-7388808813 · 30 min response guaranteed</span>
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>🔥 LIMITED PLOTS — Sarkar Town highway-facing units going fast</span>
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>⚡ APEX — ₹50/sqft instant booking discount. Limited period only</span>
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>✅ SARVODAYA CITY — Book from ₹14.39L. Approved plots ready</span>
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>🏦 BANK LOANS — SBI, HDFC, ICICI &amp; 5 more. Easy approval</span>
+        <span class="urgency-ticker__item"><span class="urgency-ticker__dot"></span>📞 CALL — +91-7388808813 · 30 min response guaranteed</span>
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="nav nav--transparent">
+  <div class="nav__inner container">
+    <div class="nav__logo"><a href="index.html"><img src="assets/images/logo-white.png" alt="Amit Legacy Estates Logo" width="160" height="52"></a></div>
+    <ul class="nav__links">
+      <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li><li><a href="investment-lucknow.html">Why Invest</a></li>
+      <li><a href="calculators.html">Calculators</a></li><li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="schedule-visit.html" class="btn btn-gold nav__cta btn-sm">Schedule Visit</a>
+    <button class="nav__ham" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<nav class="nav__mobile"><a href="index.html">Home</a><a href="about.html">About</a><a href="projects.html">Projects</a><a href="investment-lucknow.html">Why Invest</a><a href="calculators.html">Calculators</a><a href="contact.html">Contact</a><a href="schedule-visit.html" class="btn btn-gold">Schedule Site Visit</a></nav>
+
+<!-- PAGE HERO -->
+<section class="page-hero" style="min-height:380px;">
+  <div class="page-hero__bg" style="background-image:url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&q=80');"></div>
+  <div class="page-hero__overlay"></div>
+  <div class="container page-hero__content">
+    <div class="reveal">
+      <span class="section-label" style="color:var(--gold);">Smart Investing</span>
+      <h1>Investment <span class="italic-accent gold">Calculators</span></h1>
+      <div class="gold-line"></div>
+      <p style="color:rgba(255,255,255,.75);max-width:560px;">Four precision tools designed for Lucknow real estate investors — plot pricing, EMI planning, ROI projection, and stamp duty estimation. All free. No sign-up.</p>
+    </div>
+  </div>
+</section>
+
+<!-- CALC INTRO STRIP -->
+<div style="background:var(--navy);padding:20px 0;">
+  <div class="container">
+    <div style="display:flex;gap:32px;flex-wrap:wrap;align-items:center;justify-content:center;">
+      <a href="#plot-calc" style="color:rgba(255,255,255,.7);font-size:.85rem;transition:color .2s;" onmouseover="this.style.color='#C9A84C'" onmouseout="this.style.color='rgba(255,255,255,.7)'">📐 Plot Price</a>
+      <a href="#emi-calc" style="color:rgba(255,255,255,.7);font-size:.85rem;transition:color .2s;" onmouseover="this.style.color='#C9A84C'" onmouseout="this.style.color='rgba(255,255,255,.7)'">🏦 EMI / Loan</a>
+      <a href="#roi-calc" style="color:rgba(255,255,255,.7);font-size:.85rem;transition:color .2s;" onmouseover="this.style.color='#C9A84C'" onmouseout="this.style.color='rgba(255,255,255,.7)'">📈 ROI Projection</a>
+      <a href="#stamp-calc" style="color:rgba(255,255,255,.7);font-size:.85rem;transition:color .2s;" onmouseover="this.style.color='#C9A84C'" onmouseout="this.style.color='rgba(255,255,255,.7)'">📋 Stamp Duty</a>
+    </div>
+  </div>
+</div>
+
+<!-- CALCULATORS SECTION -->
+<section class="section section--cream">
+  <div class="container">
+    <div class="calc-hub-grid">
+
+      <!-- 1. PLOT PRICE CALCULATOR -->
+      <div id="plot-calc" class="calc-premium reveal">
+        <div class="calc-premium__header">
+          <div class="calc-premium__icon">📐</div>
+          <div><p class="calc-premium__title">Plot Price Calculator</p><p class="calc-premium__sub">Calculate total cost with discounts</p></div>
+        </div>
+        <div class="range-row">
+          <label>Project <span id="pp-project-val">Sarvodaya City</span></label>
+          <select class="calc-input" id="pp-project" onchange="calcPlotPrice()">
+            <option value="1799">Sarvodaya City — ₹1,799/sqft</option>
+            <option value="1699">Sarkar Town — ₹1,699/sqft</option>
+            <option value="2699">Apex (Premium) — ₹2,699/sqft</option>
+            <option value="custom">Custom Rate</option>
+          </select>
+        </div>
+        <div id="custom-rate-row" style="display:none;" class="range-row">
+          <label>Custom Rate (₹/sqft) <span id="pp-custom-val">2000</span></label>
+          <input type="range" id="pp-custom-rate" min="500" max="5000" step="50" value="2000" oninput="document.getElementById('pp-custom-val').textContent=this.value;calcPlotPrice()">
+        </div>
+        <div class="range-row">
+          <label>Plot Size (sqft) <span id="pp-size-val">1000</span></label>
+          <input type="range" id="pp-size" min="800" max="2000" step="100" value="1000" oninput="document.getElementById('pp-size-val').textContent=this.value;calcPlotPrice()">
+        </div>
+        <div class="range-row">
+          <label>Instant Booking Discount <span id="pp-disc-val">₹0</span></label>
+          <select class="calc-input" id="pp-disc" onchange="calcPlotPrice()">
+            <option value="0">No Discount</option>
+            <option value="20">₹20/sqft (Sarvodaya / Sarkar Town)</option>
+            <option value="50">₹50/sqft (Apex)</option>
+          </select>
+        </div>
+        <div class="calc-result-premium">
+          <div class="calc-result-premium__label">Total Plot Cost</div>
+          <div class="calc-result-premium__val" id="pp-result">₹17,99,000</div>
+          <div class="calc-result-premium__sub" id="pp-saving">Select instant discount to see savings</div>
+        </div>
+        <div class="calc-insight-box">
+          <h4>💡 Lucknow Market Insight</h4>
+          <p>Plot prices on Sultanpur Highway and Raebareli Road have appreciated 40–80% over the last 3 years. Booking at current rates locks in today's price — appreciation benefit starts immediately.</p>
+        </div>
+      </div>
+
+      <!-- 2. EMI CALCULATOR -->
+      <div id="emi-calc" class="calc-premium reveal d1">
+        <div class="calc-premium__header">
+          <div class="calc-premium__icon">🏦</div>
+          <div><p class="calc-premium__title">Bank Loan EMI Calculator</p><p class="calc-premium__sub">Plan your monthly payment</p></div>
+        </div>
+        <div class="range-row">
+          <label>Loan Amount <span id="emi-amt-val">₹12,00,000</span></label>
+          <input type="range" id="emi-amt" min="500000" max="5000000" step="50000" value="1200000" oninput="document.getElementById('emi-amt-val').textContent='₹'+parseInt(this.value).toLocaleString('en-IN');calcEMI()">
+        </div>
+        <div class="range-row">
+          <label>Interest Rate <span id="emi-rate-val">8.5%</span></label>
+          <input type="range" id="emi-rate" min="6" max="14" step="0.25" value="8.5" oninput="document.getElementById('emi-rate-val').textContent=parseFloat(this.value).toFixed(2)+'%';calcEMI()">
+        </div>
+        <div class="range-row">
+          <label>Loan Tenure <span id="emi-tenure-val">10 Years</span></label>
+          <input type="range" id="emi-tenure" min="1" max="20" step="1" value="10" oninput="document.getElementById('emi-tenure-val').textContent=this.value+' Years';calcEMI()">
+        </div>
+        <div class="calc-result-premium">
+          <div class="calc-result-premium__label">Monthly EMI</div>
+          <div class="calc-result-premium__val" id="emi-result">₹14,866</div>
+          <div class="calc-result-premium__sub" id="emi-total">Total Payment: ₹17,83,920 | Interest: ₹5,83,920</div>
+        </div>
+        <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div style="background:#f8f6f0;padding:14px;border-radius:6px;text-align:center;">
+            <div style="font-size:.72rem;color:var(--muted);margin-bottom:4px;">Total Interest</div>
+            <div style="font-weight:700;color:#c0392b;font-size:1rem;" id="emi-interest">₹5,83,920</div>
+          </div>
+          <div style="background:#f8f6f0;padding:14px;border-radius:6px;text-align:center;">
+            <div style="font-size:.72rem;color:var(--muted);margin-bottom:4px;">Total Payment</div>
+            <div style="font-weight:700;color:var(--navy);font-size:1rem;" id="emi-total-pay">₹17,83,920</div>
+          </div>
+        </div>
+        <div class="calc-insight-box">
+          <h4>🏦 Bank Loan Tip</h4>
+          <p>SBI and HDFC offer the most competitive rates for plot loans in UP. Our team assists with loan documentation at no cost. Typically 70–80% LTV on approved plots.</p>
+        </div>
+      </div>
+
+      <!-- 3. ROI PROJECTION CALCULATOR -->
+      <div id="roi-calc" class="calc-premium reveal d2">
+        <div class="calc-premium__header">
+          <div class="calc-premium__icon">📈</div>
+          <div><p class="calc-premium__title">ROI Projection Calculator</p><p class="calc-premium__sub">Project your future property value</p></div>
+        </div>
+        <div class="range-row">
+          <label>Initial Investment <span id="roi-inv-val">₹17,99,000</span></label>
+          <input type="range" id="roi-inv" min="1000000" max="10000000" step="50000" value="1799000" oninput="document.getElementById('roi-inv-val').textContent='₹'+parseInt(this.value).toLocaleString('en-IN');calcROI()">
+        </div>
+        <div class="range-row">
+          <label>Expected Annual Growth <span id="roi-rate-val">15%</span></label>
+          <input type="range" id="roi-rate" min="5" max="30" step="0.5" value="15" oninput="document.getElementById('roi-rate-val').textContent=parseFloat(this.value).toFixed(1)+'%';calcROI()">
+        </div>
+        <div class="range-row">
+          <label>Holding Period <span id="roi-yr-val">5 Years</span></label>
+          <input type="range" id="roi-yr" min="1" max="20" step="1" value="5" oninput="document.getElementById('roi-yr-val').textContent=this.value+' Years';calcROI()">
+        </div>
+        <div class="calc-result-premium">
+          <div class="calc-result-premium__label">Projected Property Value</div>
+          <div class="calc-result-premium__val" id="roi-val">₹36,19,696</div>
+          <div class="calc-result-premium__sub" id="roi-gain">Gain: ₹18,20,696 | Return: 101%</div>
+        </div>
+        <div style="margin-top:14px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;">
+          <div style="background:#f8f6f0;padding:12px;border-radius:6px;text-align:center;">
+            <div style="font-size:.68rem;color:var(--muted);margin-bottom:3px;">Total Gain</div>
+            <div style="font-weight:700;color:#155724;font-size:.95rem;" id="roi-gain-abs">₹18.2L</div>
+          </div>
+          <div style="background:#f8f6f0;padding:12px;border-radius:6px;text-align:center;">
+            <div style="font-size:.68rem;color:var(--muted);margin-bottom:3px;">Total Return</div>
+            <div style="font-weight:700;color:var(--navy);font-size:.95rem;" id="roi-pct">101%</div>
+          </div>
+          <div style="background:#f8f6f0;padding:12px;border-radius:6px;text-align:center;">
+            <div style="font-size:.68rem;color:var(--muted);margin-bottom:3px;">CAGR</div>
+            <div style="font-weight:700;color:var(--gold);font-size:.95rem;" id="roi-cagr">15%</div>
+          </div>
+        </div>
+        <div class="calc-insight-box">
+          <h4>📊 Historical Context</h4>
+          <p>Plots on Sultanpur Highway averaged 15–18% CAGR over 2019–2024. Early buyers of ALE plots in 2021 at ₹11L saw values reach ₹21L+ by 2024 — a 91% return in 3 years.</p>
+        </div>
+      </div>
+
+      <!-- 4. STAMP DUTY & REGISTRATION CALCULATOR -->
+      <div id="stamp-calc" class="calc-premium reveal d3">
+        <div class="calc-premium__header">
+          <div class="calc-premium__icon">📋</div>
+          <div><p class="calc-premium__title">Stamp Duty & Registration</p><p class="calc-premium__sub">Estimate registration costs in UP</p></div>
+        </div>
+        <div class="range-row">
+          <label>Property Value <span id="sd-val-label">₹17,99,000</span></label>
+          <input type="range" id="sd-val" min="500000" max="10000000" step="50000" value="1799000" oninput="document.getElementById('sd-val-label').textContent='₹'+parseInt(this.value).toLocaleString('en-IN');calcStampDuty()">
+        </div>
+        <div class="range-row">
+          <label>Buyer Gender</label>
+          <select class="calc-input" id="sd-gender" onchange="calcStampDuty()">
+            <option value="7">Male (7% stamp duty)</option>
+            <option value="6">Female (6% stamp duty — 1% concession)</option>
+          </select>
+        </div>
+        <div class="calc-result-premium" style="margin-bottom:12px;">
+          <div class="calc-result-premium__label">Estimated Total Registration Cost</div>
+          <div class="calc-result-premium__val" id="sd-total">₹2,15,880</div>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div style="background:#f8f6f0;padding:14px;border-radius:6px;">
+            <div style="font-size:.72rem;color:var(--muted);margin-bottom:4px;">Stamp Duty (7%)</div>
+            <div style="font-weight:700;color:var(--navy);" id="sd-stamp">₹1,25,930</div>
+          </div>
+          <div style="background:#f8f6f0;padding:14px;border-radius:6px;">
+            <div style="font-size:.72rem;color:var(--muted);margin-bottom:4px;">Registration Fee (1%)</div>
+            <div style="font-weight:700;color:var(--navy);" id="sd-reg">₹17,990</div>
+          </div>
+        </div>
+        <div class="calc-insight-box" style="margin-top:12px;">
+          <h4>📋 UP Registration Facts</h4>
+          <p>In Uttar Pradesh, stamp duty is 7% for male buyers and 6% for female buyers. Registration fee is 1%. Some approved townships qualify for reduced rates — confirm with our advisor.</p>
+        </div>
+      </div>
+
+      <!-- 5. AFFORDABILITY CHECKER (full width) -->
+      <div class="calc-premium calc-hub-full reveal">
+        <div class="calc-premium__header">
+          <div class="calc-premium__icon">🏠</div>
+          <div><p class="calc-premium__title">Full Investment Summary</p><p class="calc-premium__sub">Complete cost breakdown for your plot purchase</p></div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;">
+          <div class="range-row">
+            <label class="calc-label">Project</label>
+            <select class="calc-input" id="summ-project" onchange="calcSummary()">
+              <option value="1799">Sarvodaya City — ₹1,799/sqft</option>
+              <option value="1699">Sarkar Town — ₹1,699/sqft</option>
+              <option value="2699">Apex — ₹2,699/sqft</option>
+            </select>
+          </div>
+          <div class="range-row">
+            <label class="calc-label">Plot Size</label>
+            <select class="calc-input" id="summ-size" onchange="calcSummary()">
+              <option value="800">800 sqft</option>
+              <option value="1000" selected>1000 sqft</option>
+              <option value="1200">1200 sqft</option>
+              <option value="1500">1500 sqft</option>
+            </select>
+          </div>
+          <div class="range-row">
+            <label class="calc-label">Loan Percentage</label>
+            <select class="calc-input" id="summ-loan-pct" onchange="calcSummary()">
+              <option value="0">No Loan (Cash)</option>
+              <option value="50">50% Loan</option>
+              <option value="70" selected>70% Loan</option>
+              <option value="80">80% Loan</option>
+            </select>
+          </div>
+          <div class="range-row">
+            <label class="calc-label">Buyer Gender</label>
+            <select class="calc-input" id="summ-gender" onchange="calcSummary()">
+              <option value="7">Male</option>
+              <option value="6">Female (1% off)</option>
+            </select>
+          </div>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-top:20px;" id="summ-results">
+          <div class="calc-result-premium"><div class="calc-result-premium__label">Plot Cost</div><div class="calc-result-premium__val" id="summ-plot">₹17,99,000</div></div>
+          <div class="calc-result-premium"><div class="calc-result-premium__label">Registration</div><div class="calc-result-premium__val" id="summ-reg">₹2,15,880</div></div>
+          <div class="calc-result-premium"><div class="calc-result-premium__label">Down Payment</div><div class="calc-result-premium__val" id="summ-down">₹5,39,700</div></div>
+          <div class="calc-result-premium"><div class="calc-result-premium__label">Loan Amount</div><div class="calc-result-premium__val" id="summ-lamt">₹12,59,300</div></div>
+          <div class="calc-result-premium"><div class="calc-result-premium__label">Monthly EMI</div><div class="calc-result-premium__val" id="summ-emi">₹15,624</div></div>
+          <div class="calc-result-premium"><div class="calc-result-premium__label">Total Investment</div><div class="calc-result-premium__val" id="summ-total" style="font-size:1.4rem;">₹20,14,880</div></div>
+        </div>
+        <div style="text-align:center;margin-top:24px;">
+          <a href="schedule-visit.html" class="btn btn-gold" style="padding:14px 32px;">Schedule Free Site Visit →</a>
+          <a href="https://wa.me/917388808813?text=I%20used%20the%20calculator%20and%20want%20to%20enquire%20about%20a%20plot" target="_blank" rel="noopener" class="btn btn-whatsapp" style="margin-left:12px;padding:14px 24px;">WhatsApp for Details</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MARKET INSIGHTS -->
+<section class="section section--dark">
+  <div class="container">
+    <div class="text-center mb-48 reveal">
+      <span class="section-label">Data-Backed Intelligence</span>
+      <h2>Lucknow Real Estate <span class="italic-accent gold">Market Insights</span></h2>
+      <div class="gold-line gold-line--center"></div>
+    </div>
+    <div class="grid-3 stagger">
+      <div class="market-insight-card reveal" style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);">
+        <div class="market-insight-card__icon">📊</div>
+        <h4 style="color:#fff;">Historical Appreciation — Sultanpur Road</h4>
+        <p style="color:rgba(255,255,255,.6);">Plot prices on Sultanpur Road corridor have appreciated approximately 12–18% annually between 2019 and 2024. Early buyers in Phase 1 projects reported 2X returns in under 3 years.</p>
+        <div style="margin-top:14px;padding:12px;background:rgba(201,168,76,.1);border-radius:4px;">
+          <span style="color:var(--gold);font-weight:700;font-size:1.1rem;">18%</span>
+          <span style="color:rgba(255,255,255,.5);font-size:.8rem;"> avg annual CAGR (2019–2024)</span>
+        </div>
+      </div>
+      <div class="market-insight-card reveal d1" style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);">
+        <div class="market-insight-card__icon">🏗️</div>
+        <h4 style="color:#fff;">Infrastructure Projects Driving Demand</h4>
+        <p style="color:rgba(255,255,255,.6);">Confirmed government projects — Outer Ring Road (₹5,000 Cr), UP Defence Corridor (₹1,500 Cr), and Purvanchal Expressway — are the primary demand multipliers in Lucknow's eastern corridors.</p>
+        <div style="margin-top:14px;padding:12px;background:rgba(201,168,76,.1);border-radius:4px;">
+          <span style="color:var(--gold);font-weight:700;font-size:1.1rem;">₹7,500 Cr+</span>
+          <span style="color:rgba(255,255,255,.5);font-size:.8rem;"> confirmed infra investment nearby</span>
+        </div>
+      </div>
+      <div class="market-insight-card reveal d2" style="background:rgba(255,255,255,.05);border-color:rgba(255,255,255,.1);">
+        <div class="market-insight-card__icon">🏦</div>
+        <h4 style="color:#fff;">Plot Investment vs. Fixed Deposits</h4>
+        <p style="color:rgba(255,255,255,.6);">A ₹15L FD at 7% returns ₹21.1L after 5 years. The same ₹15L in an approved plot on Sultanpur Road (at 15% CAGR) projects to ₹30.1L — a ₹9L additional return.</p>
+        <div style="margin-top:14px;padding:12px;background:rgba(201,168,76,.1);border-radius:4px;">
+          <span style="color:var(--gold);font-weight:700;font-size:1.1rem;">2X</span>
+          <span style="color:rgba(255,255,255,.5);font-size:.8rem;"> returns vs FD in same period</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY BUY NOW CTA -->
+<section class="section section--cream">
+  <div class="container">
+    <div class="grid-2" style="align-items:center;gap:48px;">
+      <div class="reveal">
+        <span class="section-label">Ready to Invest?</span>
+        <h2>Numbers Tell the Story.<br><span class="italic-accent gold">Action Builds the Legacy.</span></h2>
+        <div class="gold-line"></div>
+        <p style="margin-top:16px;line-height:1.9;">Our calculators give you a clear financial picture. The next step is walking the land — a free, no-obligation site visit with our advisor who has 8+ years of expertise on Lucknow's growth corridors.</p>
+        <ul style="margin-top:20px;display:flex;flex-direction:column;gap:10px;list-style:none;">
+          <li style="display:flex;align-items:center;gap:10px;"><span style="color:var(--gold);font-size:1.1rem;">✓</span> All legal documents shared on visit</li>
+          <li style="display:flex;align-items:center;gap:10px;"><span style="color:var(--gold);font-size:1.1rem;">✓</span> Zero pressure to book</li>
+          <li style="display:flex;align-items:center;gap:10px;"><span style="color:var(--gold);font-size:1.1rem;">✓</span> Dedicated advisor accompanies you</li>
+          <li style="display:flex;align-items:center;gap:10px;"><span style="color:var(--gold);font-size:1.1rem;">✓</span> Site confirmed within 24 hours</li>
+        </ul>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:28px;">
+          <a href="schedule-visit.html" class="btn btn-gold">Schedule Free Site Visit</a>
+          <a href="projects.html" class="btn btn-navy">View Projects →</a>
+        </div>
+      </div>
+      <div class="reveal d2">
+        <div style="background:var(--navy);border-radius:8px;padding:32px;">
+          <h3 style="color:var(--gold);margin-bottom:20px;font-size:1rem;">Quick Enquiry</h3>
+          <form data-form="calc-enquiry" novalidate>
+            <div class="form-group"><label class="form-label" style="color:rgba(255,255,255,.7);">Full Name</label><input type="text" class="form-control" placeholder="Your name" required style="background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#fff;"></div>
+            <div class="form-group"><label class="form-label" style="color:rgba(255,255,255,.7);">Phone Number</label><input type="tel" class="form-control" placeholder="+91 XXXXX XXXXX" required style="background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#fff;"></div>
+            <div class="form-group"><label class="form-label" style="color:rgba(255,255,255,.7);">Project Interest</label>
+              <select class="form-control" style="background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#fff;">
+                <option>Sarvodaya City</option><option>Sarkar Town</option><option>Apex (Premium)</option><option>All Projects</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-gold btn-full" style="padding:14px;margin-top:4px;">Get Advisor Call Back →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEO TEXT BLOCK -->
+<div style="background:var(--cream);padding:32px 0;">
+  <div class="container">
+    <div style="max-width:800px;margin:0 auto;">
+      <h2 style="font-size:1.2rem;color:var(--navy);margin-bottom:12px;">Real Estate Investment Calculators for Lucknow Property Buyers</h2>
+      <p style="font-size:.85rem;line-height:1.9;color:var(--text);">Planning to buy a residential plot in Lucknow? Our free investment calculators are built specifically for buyers evaluating plots on Sultanpur Road, Raebareli Road, and Sultanpur Highway — the three fastest-growing real estate corridors in Lucknow, Uttar Pradesh. Use the plot price calculator to estimate total cost including Jila Panchayat approved plot rates, apply the EMI calculator to plan your bank loan from SBI, HDFC, ICICI or Axis Bank, and use the ROI calculator to project 5–10 year appreciation based on historical Lucknow land appreciation data. The stamp duty calculator helps you estimate registration costs in Uttar Pradesh for male and female buyers. All four tools are free, require no sign-up, and are updated to reflect 2024–2025 Lucknow real estate market rates.</p>
+      <p style="font-size:.85rem;line-height:1.9;color:var(--text);margin-top:12px;">Keywords: plot price calculator Lucknow, buy plots near Sultanpur Highway Lucknow, Raebareli Road property investment calculator, EMI calculator plot loan UP, stamp duty UP 2024, ROI real estate Lucknow 2024, Amit Legacy Estates calculators, Sarvodaya City plot cost, Sarkar Town plot price, Apex Township Lucknow investment.</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer__grid">
+      <div><div class="footer__logo mb-8"><img src="assets/images/logo-white.png" alt="Amit Legacy Estates" width="160" height="46" loading="lazy"></div><p class="footer__tagline">Where Trust Becomes Property.</p><p class="footer__desc">Lucknow's trust-first real estate partner. Legally approved plots on Sultanpur Road &amp; Raebareli Road since 2016.</p><div class="footer__social"><a href="https://wa.me/917388808813" target="_blank" rel="noopener" aria-label="WhatsApp" style="width:32px;height:32px;border-radius:50%;background:rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;"><svg width="15" height="15" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a5.2 5.2 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.875 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.09.537 4.053 1.475 5.766L0 24l6.409-1.432A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg></a></div></div>
+      <div><h4 class="footer__heading">Quick Links</h4><ul class="footer__links"><li><a href="index.html">Home</a></li><li><a href="about.html">About Us</a></li><li><a href="projects.html">Projects</a></li><li><a href="investment-lucknow.html">Why Invest</a></li><li><a href="calculators.html">Calculators</a></li><li><a href="schedule-visit.html">Schedule Visit</a></li></ul></div>
+      <div><h4 class="footer__heading">Our Projects</h4><ul class="footer__links"><li><a href="project-sarvodaya-city.html">Sarvodaya City</a></li><li><a href="project-sarkar-town.html">Sarkar Town</a></li><li><a href="project-apex.html">Apex Premium</a></li></ul></div>
+      <div><h4 class="footer__heading">Contact</h4><div class="footer__contact-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M17.657 16.657L13.414 20.9a2 2 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><circle cx="12" cy="11" r="3"/></svg>Sultanpur Road, Lucknow, UP</div><div class="footer__contact-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg><a href="tel:+917388808813" style="color:inherit;">+91-7388808813</a></div><div class="footer__contact-item"><svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg><a href="mailto:info@amitlegacyestates.com" style="color:inherit;">info@amitlegacyestates.com</a></div></div>
+    </div>
+    <div class="footer__bottom"><span>© 2026 Amit Legacy Estates. All Rights Reserved. | Lucknow Real Estate | Plots on Sultanpur Road | Raebareli Road Properties</span></div>
+  </div>
+</footer>
+<a href="https://wa.me/917388808813" class="wa-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><svg width="26" height="26" fill="white" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a5.2 5.2 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479s1.065 2.875 1.213 3.074c.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.09.537 4.053 1.475 5.766L0 24l6.409-1.432A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/></svg></a>
+<script src="js/form-email.js"></script>
+<script src="js/main.js"></script>
+<script src="js/extras.js"></script>
+<script>
+function fmt(n) { return '₹' + Math.round(n).toLocaleString('en-IN'); }
+
+function calcPlotPrice() {
+  const sel = document.getElementById('pp-project');
+  const rate = sel.value === 'custom' ? parseInt(document.getElementById('pp-custom-rate').value) : parseInt(sel.value);
+  document.getElementById('custom-rate-row').style.display = sel.value === 'custom' ? '' : 'none';
+  const size = parseInt(document.getElementById('pp-size').value);
+  const disc = parseInt(document.getElementById('pp-disc').value);
+  const price = (rate - disc) * size;
+  const saving = disc * size;
+  document.getElementById('pp-result').textContent = fmt(price);
+  document.getElementById('pp-saving').textContent = disc > 0 ? 'You save ' + fmt(saving) + ' with instant booking!' : 'Select a discount to see savings';
+  document.getElementById('pp-disc-val').textContent = disc > 0 ? '₹' + disc + '/sqft' : '₹0';
+}
+
+function calcEMI() {
+  const P = parseInt(document.getElementById('emi-amt').value);
+  const r = parseFloat(document.getElementById('emi-rate').value) / 12 / 100;
+  const n = parseInt(document.getElementById('emi-tenure').value) * 12;
+  const emi = P * r * Math.pow(1+r, n) / (Math.pow(1+r, n) - 1);
+  const total = emi * n;
+  const interest = total - P;
+  document.getElementById('emi-result').textContent = fmt(emi);
+  document.getElementById('emi-interest').textContent = fmt(interest);
+  document.getElementById('emi-total-pay').textContent = fmt(total);
+}
+
+function calcROI() {
+  const inv = parseInt(document.getElementById('roi-inv').value);
+  const rate = parseFloat(document.getElementById('roi-rate').value) / 100;
+  const yrs = parseInt(document.getElementById('roi-yr').value);
+  const val = inv * Math.pow(1 + rate, yrs);
+  const gain = val - inv;
+  const pct = ((gain / inv) * 100).toFixed(0);
+  document.getElementById('roi-val').textContent = fmt(val);
+  document.getElementById('roi-gain').textContent = 'Gain: ' + fmt(gain) + ' | Return: ' + pct + '%';
+  document.getElementById('roi-gain-abs').textContent = '₹' + (gain/100000).toFixed(1) + 'L';
+  document.getElementById('roi-pct').textContent = pct + '%';
+  document.getElementById('roi-cagr').textContent = parseFloat(document.getElementById('roi-rate').value).toFixed(1) + '%';
+}
+
+function calcStampDuty() {
+  const val = parseInt(document.getElementById('sd-val').value);
+  const sdPct = parseInt(document.getElementById('sd-gender').value) / 100;
+  const regFee = val * 0.01;
+  const stamp = val * sdPct;
+  const total = stamp + regFee;
+  document.getElementById('sd-total').textContent = fmt(total);
+  document.getElementById('sd-stamp').textContent = fmt(stamp);
+  document.getElementById('sd-reg').textContent = fmt(regFee);
+}
+
+function calcSummary() {
+  const rate = parseInt(document.getElementById('summ-project').value);
+  const size = parseInt(document.getElementById('summ-size').value);
+  const loanPct = parseInt(document.getElementById('summ-loan-pct').value) / 100;
+  const sdPct = parseInt(document.getElementById('summ-gender').value) / 100;
+  const plotCost = rate * size;
+  const regCost = plotCost * (sdPct + 0.01);
+  const loanAmt = plotCost * loanPct;
+  const downPay = plotCost * (1 - loanPct);
+  const r = 8.5 / 12 / 100;
+  const n = 120;
+  const emi = loanAmt > 0 ? loanAmt * r * Math.pow(1+r,n) / (Math.pow(1+r,n)-1) : 0;
+  const total = plotCost + regCost;
+  document.getElementById('summ-plot').textContent = fmt(plotCost);
+  document.getElementById('summ-reg').textContent = fmt(regCost);
+  document.getElementById('summ-down').textContent = fmt(downPay);
+  document.getElementById('summ-lamt').textContent = fmt(loanAmt);
+  document.getElementById('summ-emi').textContent = loanAmt > 0 ? fmt(emi) : '₹0 (Cash)';
+  document.getElementById('summ-total').textContent = fmt(total);
+}
+
+// Init all
+calcPlotPrice(); calcEMI(); calcROI(); calcStampDuty(); calcSummary();
+</script>
+</body>
+</html>
