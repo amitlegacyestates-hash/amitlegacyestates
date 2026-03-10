@@ -11,7 +11,7 @@
    4. Copy the Access Key and replace WEB3FORMS_ACCESS_KEY below
    ============================================================ */
 
-const WEB3FORMS_ACCESS_KEY = 'YOUR_WEB3FORMS_ACCESS_KEY'; // <-- Replace this after activation
+const WEB3FORMS_ACCESS_KEY = '88f50a89-6bf3-41a6-a9b8-cf6b8137aef5'; // <-- Replace this after activation
 
 (function initEmailForms() {
   document.querySelectorAll('form[data-form]').forEach(function(form) {
